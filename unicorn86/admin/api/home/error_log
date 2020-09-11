@@ -1,0 +1,54 @@
+[30-Apr-2020 03:27:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:18
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(9): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 18
+[30-Apr-2020 03:28:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:18
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(9): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 18
+[30-Apr-2020 03:29:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:18
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(9): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 18
+[30-Apr-2020 03:29:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:18
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(9): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 18
+[30-Apr-2020 03:30:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:19
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(10): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 19
+[30-Apr-2020 03:30:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:19
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(10): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 19
+[30-Apr-2020 03:31:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::qeury() in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:20
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(11): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 20
+[30-Apr-2020 03:34:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php:27
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php(11): get_home_data(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/home.php on line 27
+[07-May-2020 16:56:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'HomeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php on line 5
+[07-May-2020 16:57:27 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'HomeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php on line 5
+[07-May-2020 16:57:49 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'HomeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/home/category.php on line 5
+[07-May-2020 16:58:28 America/Chicago] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/lbitsd7c/public_html/vfoodsupplies/api/home/homeHandler.php on line 73
+[07-May-2020 16:59:50 America/Chicago] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/lbitsd7c/public_html/vfoodsupplies/api/home/homeHandler.php on line 73

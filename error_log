@@ -1,0 +1,744 @@
+[09-Sep-2020 13:33:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/lbitsd7c/public_html/diner/php/classes/OrderHandler.php:154
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/php/classes/OrderHandler.php(154): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/diner/public/place-order.php(13): OrderHandler->placeOrder('hello')
+#2 /home/lbitsd7c/public_html/diner/index.php(163): require('/home/lbitsd7c/...')
+#3 {main}
+  thrown in /home/lbitsd7c/public_html/diner/php/classes/OrderHandler.php on line 154
+[09-Sep-2020 14:05:22 UTC] PHP Warning:  require_once(php/classes/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/order-again.php on line 3
+[09-Sep-2020 14:05:22 UTC] PHP Fatal error:  require_once(): Failed opening required 'php/classes/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/order-again.php on line 3
+[09-Sep-2020 14:15:48 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:15:48 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:15:49 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:15:51 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:15:51 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:15:59 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:16:00 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:16:00 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:16:01 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:16:02 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php:9
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(23): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php on line 9
+[09-Sep-2020 14:16:02 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[09-Sep-2020 14:28:04 UTC] PHP Warning:  require_once(./public/admin/view-tables.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 154
+[09-Sep-2020 14:28:04 UTC] PHP Fatal error:  require_once(): Failed opening required './public/admin/view-tables.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/index.php on line 154
+[09-Sep-2020 14:28:30 UTC] PHP Warning:  require_once(./public/admin/view-tables.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 154
+[09-Sep-2020 14:28:30 UTC] PHP Fatal error:  require_once(): Failed opening required './public/admin/view-tables.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/index.php on line 154
+[09-Sep-2020 15:46:11 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:11 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:12 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:12 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:13 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:13 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:14 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:14 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:15 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:15 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:16 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:16 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:17 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:17 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:18 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:18 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:19 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:19 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:20 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:20 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:21 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:21 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:22 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:22 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:23 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:23 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:24 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:24 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:25 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:33 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:33 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:34 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:34 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:35 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:35 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:36 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:37 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:37 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:38 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:38 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:39 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:39 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:40 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:40 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:41 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:41 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:42 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:42 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:42 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:43 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:43 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:44 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:44 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:45 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:45 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:46 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:46 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:47 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:47 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:48 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:48 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:49 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:49 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:50 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:50 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:50 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:51 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:51 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:52 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:57 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:58 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:58 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:59 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:46:59 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:00 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:01 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:01 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:02 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:02 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:02 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:03 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:03 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:04 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:04 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:05 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:05 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:06 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:06 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:07 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:47:43 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:48:04 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:48:04 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:48:09 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:48:16 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/lbitsd7c/public_html/diner/public/admin/classes/dbHandler.php on line 3
+[09-Sep-2020 15:49:14 UTC] PHP Warning:  require_once(php/includes/header.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:49:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'php/includes/header.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:50:11 UTC] PHP Warning:  require_once(php/classes/admin/OrderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:50:11 UTC] PHP Fatal error:  require_once(): Failed opening required 'php/classes/admin/OrderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:50:37 UTC] PHP Warning:  require_once(php/classes/admin/OrderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:50:37 UTC] PHP Fatal error:  require_once(): Failed opening required 'php/classes/admin/OrderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/order-info.php on line 7
+[09-Sep-2020 15:58:23 UTC] PHP Warning:  require_once(./public/admin/view-tables.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 160
+[09-Sep-2020 15:58:23 UTC] PHP Fatal error:  require_once(): Failed opening required './public/admin/view-tables.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/index.php on line 160
+[09-Sep-2020 16:19:50 UTC] PHP Warning:  require(./public/welcome.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 104
+[09-Sep-2020 16:19:50 UTC] PHP Warning:  require(./public/welcome.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 104
+[09-Sep-2020 16:19:50 UTC] PHP Fatal error:  require(): Failed opening required './public/welcome.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/index.php on line 104
+[09-Sep-2020 16:29:50 UTC] PHP Fatal error:  Uncaught Error: Class 'ItemHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/item-info.php:10
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/item-info.php on line 10
+[09-Sep-2020 16:48:20 UTC] PHP Fatal error:  Uncaught Error: Class 'MenuHandler' not found in /home/lbitsd7c/public_html/diner/public/welcome.php:8
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(104): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/welcome.php on line 8
+[09-Sep-2020 16:50:14 UTC] PHP Fatal error:  Uncaught Error: Class 'MenuHandler' not found in /home/lbitsd7c/public_html/diner/public/welcome.php:8
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(104): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/welcome.php on line 8
+[09-Sep-2020 16:50:16 UTC] PHP Fatal error:  Uncaught Error: Class 'MenuHandler' not found in /home/lbitsd7c/public_html/diner/public/welcome.php:8
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(104): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/welcome.php on line 8
+[10-Sep-2020 07:49:48 UTC] PHP Warning:  require_once(/php/classes/admin/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/php/api/update-order-status.php on line 3
+[10-Sep-2020 07:49:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/php/classes/admin/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/php/api/update-order-status.php on line 3
+[10-Sep-2020 07:57:55 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 07:57:57 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 07:57:58 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 07:57:58 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 07:57:59 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php:9
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(23): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php on line 9
+[10-Sep-2020 07:57:59 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 07:58:00 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php:9
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(23): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php on line 9
+[10-Sep-2020 08:04:48 UTC] PHP Warning:  require_once(./public/admin/view-tables.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/index.php on line 163
+[10-Sep-2020 08:04:48 UTC] PHP Fatal error:  require_once(): Failed opening required './public/admin/view-tables.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/index.php on line 163
+[10-Sep-2020 10:35:16 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:17 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:17 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:18 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:19 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:20 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:20 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:21 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:28 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:30 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:30 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 10:35:32 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:52:00 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:52:01 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:52:02 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:52:03 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:52:04 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:53:12 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:53:13 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:53:14 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:53:16 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:53:16 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:16 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:18 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:19 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:20 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:21 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 11:55:22 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:44 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:45 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:47 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:47 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:49 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 12:59:49 UTC] PHP Fatal error:  Uncaught Error: Class 'TableHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(65): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/get-table-info.php on line 7
+[10-Sep-2020 13:04:26 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php:10
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(23): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php on line 10
+[10-Sep-2020 13:18:07 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php:10
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(23): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/viewtables.php on line 10
+[10-Sep-2020 13:39:17 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 13:39:18 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 13:39:20 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 13:41:25 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 13:41:26 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 13:41:27 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/get-order-status.php:5
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(120): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/get-order-status.php on line 5
+[10-Sep-2020 14:29:43 UTC] PHP Fatal error:  Uncaught Error: Class 'UserHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/manage-access.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(32): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/manage-access.php on line 6
+[10-Sep-2020 14:29:47 UTC] PHP Fatal error:  Uncaught Error: Class 'UserHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/manage-access.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(32): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/manage-access.php on line 6
+[10-Sep-2020 14:29:48 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/lbitsd7c/public_html/diner/php/classes/admin/userHandler.php on line 153
+[10-Sep-2020 14:29:50 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/lbitsd7c/public_html/diner/php/classes/admin/userHandler.php on line 153
+[10-Sep-2020 14:29:52 UTC] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/lbitsd7c/public_html/diner/php/classes/admin/userHandler.php on line 153
+[11-Sep-2020 09:44:22 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 09:44:31 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 09:44:34 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:07:58 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:08:10 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:08:14 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:09:31 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:09:35 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:11:56 UTC] PHP Warning:  require_once(/php/classes/admin/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 5
+[11-Sep-2020 10:11:56 UTC] PHP Fatal error:  require_once(): Failed opening required '/php/classes/admin/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 5
+[11-Sep-2020 10:12:00 UTC] PHP Warning:  require_once(/php/classes/admin/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 5
+[11-Sep-2020 10:12:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/php/classes/admin/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 5
+[11-Sep-2020 10:19:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 226
+[11-Sep-2020 10:19:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 226
+[11-Sep-2020 10:20:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 226
+[11-Sep-2020 10:20:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 226
+[11-Sep-2020 10:28:18 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:28:39 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:28:43 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:32:06 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 10:43:44 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:43:48 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 10:55:58 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:01:01 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:01:05 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:02:31 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:02:58 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 11:02:58 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:03:00 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 11:03:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method OrderHandler::throwError() in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php:153
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/public/admin/dashboard.php(9): OrderHandler->getGraphData()
+#1 /home/lbitsd7c/public_html/diner/index.php(14): require('/home/lbitsd7c/...')
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php on line 153
+[11-Sep-2020 11:11:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php:133
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/public/admin/dashboard.php(9): OrderHandler->getGraphData()
+#1 /home/lbitsd7c/public_html/diner/index.php(14): require('/home/lbitsd7c/...')
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php on line 133
+[11-Sep-2020 11:14:19 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:14:22 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:17:18 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:18:00 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:18:03 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:18:54 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:30:49 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 11:34:37 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 12:14:39 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 12:14:41 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php:7
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(14): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/dashboard.php on line 7
+[11-Sep-2020 12:20:26 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 12:23:47 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 12:25:54 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 12:49:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php:110
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php(12): OrderHandler->getHomePageData()
+#1 /home/lbitsd7c/public_html/diner/index.php(47): require_once('/home/lbitsd7c/...')
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/diner/php/classes/admin/orderHandler.php on line 110
+[11-Sep-2020 14:12:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 54
+[11-Sep-2020 14:12:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 54
+[11-Sep-2020 14:12:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 54
+[11-Sep-2020 14:13:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:13:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:13:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 14:16:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AdminHandler::getTax() in /home/lbitsd7c/public_html/diner/public/admin/others.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(44): require()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/others.php on line 53
+[11-Sep-2020 17:03:34 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 17:03:37 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 17:03:48 UTC] PHP Fatal error:  Uncaught Error: Class 'OrderHandler' not found in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php:6
+Stack trace:
+#0 /home/lbitsd7c/public_html/diner/index.php(47): require_once()
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/diner/public/admin/php/api/home.php on line 6
+[11-Sep-2020 17:22:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:22:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:22:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:22:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:25:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:25:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:25:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143
+[11-Sep-2020 17:25:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/lbitsd7c/public_html/diner/public/admin/edit-item.php on line 143

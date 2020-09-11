@@ -1,0 +1,102 @@
+[01-May-2020 14:45:30 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 8
+[01-May-2020 14:45:55 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 9
+[01-May-2020 14:46:17 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 9
+[01-May-2020 14:46:40 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 8
+[01-May-2020 14:46:43 America/Chicago] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 8
+[01-May-2020 14:46:54 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_create_iv() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 15
+[01-May-2020 14:47:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mcrypt_create_iv() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 15
+[01-May-2020 14:51:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 19
+[01-May-2020 14:54:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function get() on null in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 19
+[01-May-2020 15:18:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 42
+[01-May-2020 15:18:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 42
+[01-May-2020 15:21:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:22:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:26:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:26:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:43:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:44:49 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:45:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function getBearerToken() in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 45
+[01-May-2020 15:56:33 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[01-May-2020 15:56:56 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[01-May-2020 15:57:19 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[01-May-2020 16:37:01 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[01-May-2020 16:37:22 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[01-May-2020 16:38:12 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php on line 47 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/auth.php(47): JWT::decode('eyJ0eXAiOiJKV1Q...', 'csr1998', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54

@@ -1,0 +1,17 @@
+[02-May-2020 12:10:01 America/Chicago] PHP Warning:  hash(): Unknown hashing algorithm: 1 in /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/token-generator.php on line 13
+[02-May-2020 12:10:32 America/Chicago] PHP Warning:  Use of undefined constant SECRET - assumed 'SECRET' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php on line 41
+[02-May-2020 12:10:32 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php on line 41 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php(41): JWT::decode('eyJ0eXAiOiJKV1Q...', 'SECRET', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[02-May-2020 12:11:15 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php on line 43 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php(43): JWT::decode('eyJ0eXAiOiJKV1Q...', '9246249339', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54
+[02-May-2020 12:11:42 America/Chicago] PHP Fatal error:  Uncaught TypeError: Argument 3 passed to JWT::decode() must be of the type array, string given, called in /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php on line 42 and defined in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/user-authentication/get-data.php(42): JWT::decode('eyJ0eXAiOiJKV1Q...', '9246249339', 'HS512')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/jwt.php on line 54

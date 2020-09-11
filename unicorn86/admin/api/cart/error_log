@@ -1,0 +1,33 @@
+[28-Apr-2020 01:46:39 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 01:49:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 02:33:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 02:34:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 02:35:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 03:06:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php:56
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php(14): get_from_cart(Object(mysqli))
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 56
+[28-Apr-2020 04:05:41 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/lbitsd7c/public_html/vfoodsupplies/api/cart/cart.php on line 63
+[07-May-2020 15:37:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lbitsd7c/public_html/vfoodsupplies/api/cart/CartHandler.php:31) in /home/lbitsd7c/public_html/vfoodsupplies/api/classes/api.php on line 91
+[07-May-2020 15:39:20 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lbitsd7c/public_html/vfoodsupplies/api/cart/CartHandler.php:32) in /home/lbitsd7c/public_html/vfoodsupplies/api/classes/api.php on line 91

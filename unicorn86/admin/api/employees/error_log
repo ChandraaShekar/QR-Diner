@@ -1,0 +1,51 @@
+[07-May-2020 13:02:00 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause' in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php(53): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/employee.php(11): EmployeeHandler->addEmployee()
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php on line 53
+[07-May-2020 13:04:19 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause' in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php(53): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/employee.php(11): EmployeeHandler->addEmployee()
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php on line 53
+[07-May-2020 13:05:27 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause' in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php(54): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/employee.php(11): EmployeeHandler->addEmployee()
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php on line 54
+[07-May-2020 13:06:35 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause' in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:53
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php(53): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/employee.php(11): EmployeeHandler->addEmployee()
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php on line 53
+[07-May-2020 13:08:47 America/Chicago] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'phone' in 'where clause' in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:54
+Stack trace:
+#0 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php(54): PDOStatement->execute()
+#1 /home/lbitsd7c/public_html/vfoodsupplies/api/employees/employee.php(11): EmployeeHandler->addEmployee()
+#2 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php on line 54
+[07-May-2020 13:11:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/lbitsd7c/public_html/vfoodsupplies/api/employees/EmployeeHandler.php:45) in /home/lbitsd7c/public_html/vfoodsupplies/api/classes/api.php on line 86
+[07-May-2020 13:15:52 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'EmployeeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php on line 4
+[07-May-2020 13:16:18 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'EmployeeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php on line 4
+[07-May-2020 13:16:53 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'EmployeeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php on line 4
+[07-May-2020 13:17:21 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'EmployeeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php on line 4
+[07-May-2020 13:17:28 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'EmployeeHandler' not found in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/vfoodsupplies/api/employees/delete-employee.php on line 4

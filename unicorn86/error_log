@@ -1,0 +1,8 @@
+[23-Aug-2020 20:10:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getItemWithName() on null in /home/lbitsd7c/public_html/unicorn86/menu.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/menu.php on line 28
+[23-Aug-2020 20:13:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getMenuItems() on null in /home/lbitsd7c/public_html/unicorn86/menu.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/menu.php on line 28

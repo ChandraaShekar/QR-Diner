@@ -1,0 +1,8 @@
+{
+    "name": "lbitsd7c/vfoodsupplies",
+    "require": {
+        "narendravaghela/bitly-client": "^1.0",
+        "endroid/qr-code": "^3.9",
+        "mike42/escpos-php": "^3.0"
+    }
+}

@@ -1,0 +1,59 @@
+[15-Aug-2020 08:21:46 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_jYeBCYCkpXRV97) Invalid integer: 5383.4
+  thrown in /home/lbitsd7c/public_html/unicorn86/php/stripe-php-master/lib/Exception/ApiErrorException.php on line 38
+[15-Aug-2020 08:22:07 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_GEmLprw4nYlUwF) Invalid integer: 5383.4
+  thrown in /home/lbitsd7c/public_html/unicorn86/php/stripe-php-master/lib/Exception/ApiErrorException.php on line 38
+[15-Aug-2020 08:27:23 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_62bCHgsQ2PMbzf) You cannot use a Stripe token more than once: tok_1HGKe2J2g009n60wG4Fztosy.
+  thrown in /home/lbitsd7c/public_html/unicorn86/php/stripe-php-master/lib/Exception/ApiErrorException.php on line 38
+[15-Aug-2020 08:27:34 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_u6ioYiwqfgO7u3) You cannot use a Stripe token more than once: tok_1HGKe2J2g009n60wG4Fztosy.
+  thrown in /home/lbitsd7c/public_html/unicorn86/php/stripe-php-master/lib/Exception/ApiErrorException.php on line 38
+[15-Aug-2020 10:47:34 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:47:34 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:47:34 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:47:34 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php:14
+Stack trace:
+#0 /home/lbitsd7c/public_html/unicorn86/php/transaction.php(18): PaymentHandler->updatePaymentSuccess(112.01, 'succeeded', 112.01, 'tok_1HGMv7J2g00...', 'card')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php on line 14
+[15-Aug-2020 10:59:39 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:59:39 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:59:39 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:59:39 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 10:59:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php:14
+Stack trace:
+#0 /home/lbitsd7c/public_html/unicorn86/php/transaction.php(18): PaymentHandler->updatePaymentSuccess(112.01, 'succeeded', 112.01, 'tok_1HGN6pJ2g00...', 'card')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php on line 14
+[15-Aug-2020 11:05:38 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:05:38 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:05:38 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:05:38 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:05:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php:14
+Stack trace:
+#0 /home/lbitsd7c/public_html/unicorn86/php/transaction.php(18): PaymentHandler->updatePaymentSuccess(112.01, 'succeeded', 112.01, 'tok_1HGNCcJ2g00...', 'card')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php on line 14
+[15-Aug-2020 11:09:29 UTC] PHP Fatal error:  Uncaught (Status 400) (Request req_xEA7ZscS2jTTui) You cannot use a Stripe token more than once: tok_1HGNCcJ2g009n60w5Ed2tRrG.
+  thrown in /home/lbitsd7c/public_html/unicorn86/php/stripe-php-master/lib/Exception/ApiErrorException.php on line 38
+[15-Aug-2020 11:10:07 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:10:07 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:10:07 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:10:07 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:10:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php:14
+Stack trace:
+#0 /home/lbitsd7c/public_html/unicorn86/php/transaction.php(18): PaymentHandler->updatePaymentSuccess(112.01, 'succeeded', 112.01, 'tok_1HGNGxJ2g00...', 'card')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php on line 14
+[15-Aug-2020 11:29:38 UTC] PHP Warning:  Use of undefined constant DB_HOST - assumed 'DB_HOST' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:29:38 UTC] PHP Warning:  Use of undefined constant DB_NAME - assumed 'DB_NAME' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:29:38 UTC] PHP Warning:  Use of undefined constant DB_USER - assumed 'DB_USER' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:29:38 UTC] PHP Warning:  Use of undefined constant DB_PASS - assumed 'DB_PASS' (this will throw an Error in a future version of PHP) in /home/lbitsd7c/public_html/unicorn86/classes/main.php on line 9
+[15-Aug-2020 11:29:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php:14
+Stack trace:
+#0 /home/lbitsd7c/public_html/unicorn86/php/update-payment-status.php(10): PaymentHandler->updatePaymentSuccess(11201.3, 'succeeded', '112.01', 'tok_1HGNT7J2g00...', 'card')
+#1 {main}
+  thrown in /home/lbitsd7c/public_html/unicorn86/classes/paymentHandler.php on line 14
+[15-Aug-2020 11:33:06 UTC] PHP Warning:  require_once(../classes/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/unicorn86/php/update-payment-status.php on line 3
+[15-Aug-2020 11:33:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../classes/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/unicorn86/php/update-payment-status.php on line 3
+[15-Aug-2020 11:35:06 UTC] PHP Warning:  require_once(../classes/orderHandler.php): failed to open stream: No such file or directory in /home/lbitsd7c/public_html/unicorn86/php/update-payment-status.php on line 3
+[15-Aug-2020 11:35:06 UTC] PHP Fatal error:  require_once(): Failed opening required '../classes/orderHandler.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/lbitsd7c/public_html/unicorn86/php/update-payment-status.php on line 3

@@ -1,0 +1,12 @@
+{
+    "name": "lbitsd7c/classes",
+    "authors": [
+        {
+            "name": "Chandra Shekar Reddy",
+            "email": "csreddy1998@gmail.com"
+        }
+    ],
+    "require": {
+        "mike42/escpos-php": "^3.0"
+    }
+}
