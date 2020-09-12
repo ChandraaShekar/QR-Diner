@@ -3,8 +3,7 @@ session_start();
 
 session_unset();
 session_destroy();
-
-unset($_SESSION['user']);
-
+$_SESSION = array();
+unset($_SESSION);
 
 header("Location: /not-authorized");

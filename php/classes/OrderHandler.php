@@ -103,6 +103,7 @@ class OrderHandler extends Main {
 
     public function placeOrder($orderNote){
         $status = false;
+        $tax = $this->getTax();
         try{
             $userSess = $_SESSION['user']['user_info'];
             $orderId = uniqid("ORDER", false);
@@ -120,7 +121,7 @@ class OrderHandler extends Main {
             while($orderItem = $q->fetch(PDO::FETCH_ASSOC)){
                 $itemPrice = ($orderItem['offerPrice'] != null) ? $orderItem['offerPrice'] : $orderItem['price'];
                 $totalPrice += $itemPrice * $orderItem['itemCount'];
-                $priceWithTax += $itemPrice * $orderItem['itemCount'] * 1.1;
+                $priceWithTax += $itemPrice * $orderItem['itemCount'] * (1 + ($tax / 100));
                 $itemTotalPrice = $itemPrice * $orderItem['itemCount'];
                 $q1 = $this->db->prepare("INSERT INTO order_items 
                         (restaurantId, orderId, itemId, itemCount, itemPrice, totalPrice) 
@@ -247,5 +248,20 @@ class OrderHandler extends Main {
             }
        }
        return $tableStatus;
+    }
+
+    public function getTax(){
+        $tax = NULL;
+        if(!empty($this->restaurantId)){
+            try{
+                $q = $this->db->prepare("SELECT percentage FROM res_tax_percent WHERE restaurantId = :resId");
+                $q->bindParam(":resId", $this->restaurantId);
+                $q->execute();
+                $tax = $q->fetch(PDO::FETCH_ASSOC)['percentage'];
+            }catch(Exception $e){
+                die($e->getMessage);
+            }
+        }
+        return $tax;
     }
 }

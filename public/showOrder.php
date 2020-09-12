@@ -1,11 +1,16 @@
 <?php
 require_once "php/classes/MenuHandler.php";
+require_once "php/classes/OrderHandler.php";
 session_start();
 if((!isset($_SESSION['user']) && !empty($_SESSION['user']))){
 	header('Location: /menu');
 	die("");
 }
 $menuHandler = new MenuHandler();
+$orderHandler = new OrderHandler();
+
+$tax = $orderHandler->getTax();
+
 ?>
 
 
@@ -168,13 +173,18 @@ $menuHandler = new MenuHandler();
 					});
 					$("#bill-body").append(`<tr class="table-row">
 								<td class="serial"></td>
-								<td class="country">Service Tax</td>
-								<td class="price">10%<br>$${Math.round(totalPrice * 0.1 * 100) / 100}/-</td>
+								<td class="country">Sub Total</td>
+								<td class="price">$${Math.round(totalPrice * 100) / 100}/-</td>
+							</tr>`);
+					$("#bill-body").append(`<tr class="table-row">
+								<td class="serial"></td>
+								<td class="country">Service Tax (<?= $tax ?>%)</td>
+								<td class="price">$${Math.round(totalPrice * (<?= $tax ?> / 100) * 100) / 100}/-</td>
 							</tr>`);
 					$("#bill-body").append(`<tr class="table-row">
 								<td class="serial"></td>
 								<td class="country">Total Price</td>
-								<td class="price">$${Math.round(totalPrice * 1.1 * 100) / 100}/-</td>
+								<td class="price">$${Math.round(totalPrice * (1 + (<?= $tax ?> / 100)) * 100) / 100}/-</td>
 							</tr>`);
 				}
 			});

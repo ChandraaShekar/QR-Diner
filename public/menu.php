@@ -105,9 +105,9 @@ $menuItems = $menu->getMenuItems($_SESSION['user']['restaurantId']);
 	</div>
 	 -->
 	<div class="site-main">
-		<a href="logout.php" class="btn btn-primary" style="float: right;">Logout</a>
+		<a href="/logout" class="btn btn-primary" style="float: right;">Logout</a>
 		<?php if($_SESSION['user']['user_info']['isRoot'] == "false"){ ?>
-		<a href="showOrder.php" class="btn btn-primary" style="float: right;">Go to Orders</a>
+		<a href="/show-order" class="btn btn-primary" style="float: right;">Go to Orders</a>
 		<?php } ?>
 		<div>
 			<p style="font-size: 14px;margin-top: 20px;margin-left: 10px;font-style: italic;">Scroll to left</p>

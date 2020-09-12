@@ -13,7 +13,7 @@ $orderHandler = new OrderHandler();
 $_SESSION['orders'] = [];
 // print_r($_SESSION);
 $orderList = $orderHandler->getAllOrderList();
-
+$tax = $orderHandler->getTax();
 ?>
 
 
@@ -71,7 +71,8 @@ $orderList = $orderHandler->getAllOrderList();
 
 	<div class="container">
         <div class="headings">
-            <h3 class="text-center">Order Status: <span id="status"><strong>Reviewing</strong></span></h3>
+			<h3 class="text-center" id="orderMsg">Loading...</h3>
+            <h3 class="text-center">Order Status: <span id="status"><strong>Loading...</strong></span></h3>
 			<h5 class="text-center">Sit back and relax!</h5>
 			<!-- <h5 class="text-center"></h5> -->
         </div>
@@ -112,7 +113,7 @@ $orderList = $orderHandler->getAllOrderList();
 						<div class="serial"></div>
 						<div class="country">
 							Sub Total: <br>
-							Service Tax - 10%<br>
+							Service Tax - <?= $tax ?>%<br>
 							Total:
 						</div>
 						<div class="percentage" style="text-align:right;">
@@ -156,7 +157,16 @@ $orderList = $orderHandler->getAllOrderList();
 			var prevData;
 			$.get("/get-order-status", function(data){
 				var x = JSON.parse(data);
-				$("#status").html(`<strong>${x.tableStatus}</strong>`);
+				var orderMsg = "";
+				$("#status").html(`<strong style="${(x.tableStatus == "Payment Pending") ? 'color: red;' : (x.tableStatus == "Payment Successful")? 'color: green;' : 'color: black;'}">${x.tableStatus}</strong>`);
+				if(x.tableStatus == "Reviewing"){
+					orderMsg = "Your Order is being Reviewed, Please Wait.";
+				}else if(x.tableStatus == "Declined"){
+					orderMsg = "<span style='color: red;'>Your Order has been Declined. You can Click on Order More below to Order Again.</span>";
+				}else{
+					orderMsg = "<span style='color: green;'>Your Order has been Successfully Placed.</span>";
+				}
+				$("#orderMsg").html(orderMsg);
 			});
 		}, 1000);
 	</script>
